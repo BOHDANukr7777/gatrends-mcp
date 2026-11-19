@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.gatrends/trend-radar",
+  "title": "GAtrends trend radar",
+  "description": "Free trend radar for games and tech: what is spiking now in Steam, news, Reddit, Wikipedia.",
+  "version": "1.0.0",
+  "websiteUrl": "https://gatrends.com",
+  "icons": [
+    { "src": "https://gatrends.com/favicon.png", "mimeType": "image/png" }
+  ],
+  "remotes": [
+    { "type": "streamable-http", "url": "https://gatrends.com/mcp" }
+  ]
+}
