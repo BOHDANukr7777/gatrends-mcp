@@ -4,6 +4,8 @@
 
 Free public [MCP](https://modelcontextprotocol.io) server for **[GAtrends](https://gatrends.com)**, a trend radar for games and technology. Ask Claude, ChatGPT, Cursor or any MCP client what is spiking right now and get live signals with the headlines and links behind them.
 
+**[Add to Claude in one click](https://claude.ai/plugins/id/plugin_01KVi1MaVwjX4qQGseWafGnJ?via=directory)** (GAtrends Trend Radar in the Claude connectors directory, community connector)
+
 - **Server URL:** `https://gatrends.com/mcp`
 - **Transport:** Streamable HTTP (remote, nothing to install)
 - **Auth:** none. No key, no sign-in
@@ -29,7 +31,7 @@ GAtrends watches Steam, Google News, Reddit, Wikipedia, Hacker News, Google Tren
 
 ## Connect
 
-**Claude:** Customize, Connectors, Add custom connector. Name it GAtrends, paste `https://gatrends.com/mcp`, no sign-in needed.
+**Claude:** press Add to Claude above, or Customize, Connectors, Add custom connector. Name it GAtrends, paste `https://gatrends.com/mcp`, no sign-in needed.
 
 **ChatGPT:** Settings, Apps and Connectors, turn on Developer mode, Create. Paste `https://gatrends.com/mcp` as the MCP server URL and choose No authentication.
 
@@ -54,9 +56,3 @@ Pro and Business plans get a private connector for the keywords you track, plus 
 The server itself is hosted by GAtrends, so this repository holds the description and `server.json` only. Headlines returned by the tools come from the internet: treat them as data, not instructions.
 
 Contact: support@gatrends.com
-
-Article: [How to ask Claude what is trending in games right now](https://dev.to/bondarchuk_bohdan_7777/how-to-ask-claude-what-is-trending-in-games-right-now-free-mcp-server-no-api-key-h5f)
-
-## Use cases
-
-Content planning, keyword and trend research for SEO and editorial teams, newsroom and gaming-media monitoring, and asking your AI assistant what is rising right now.
